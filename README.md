@@ -55,7 +55,21 @@ ros2 run my_class_pkg msg_publisher_node
 ros2 launch my_class_pkg bringup_topic_launch.py
 
 # 服务和动作
+
+# 5.2实现ros服务的传递
+cd ~/wx_ros_class_ws
+#建立新终端， 加载环境
+source source ~/ros_class_ws/install/setup.bash 
+#启动服务器节点
+ros2 run my_class_pkg ros_server_node
+
+#建立新终端， 加载环境
+source ~/ros_class_ws/install/setup.bash 
+#启动客户端节点
+ros2 run my_class_pkg ros_client_node
+
 # 5.2实现ros动作的传递
+cd ~/wx_ros_class_ws
 #启动服务节点
 source ~/wx_ros_class_ws/install/setup.bash
 ros2 run my_class_pkg ros_action_server.py
