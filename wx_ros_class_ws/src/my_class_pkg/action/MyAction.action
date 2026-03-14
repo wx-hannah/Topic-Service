@@ -1,0 +1,9 @@
+# Goal（客户端发送的目标）
+string object_name
+---
+# Result（服务端返回的结果）
+bool success
+---
+# Feedback（服务端执行过程的反馈）
+float32 progress
+
