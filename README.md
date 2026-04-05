@@ -3,7 +3,7 @@ my first experiment on class
 
 wangxun‘s repository
 
-# 实验一：主题与消息实验——ros2！！
+# 实验一：主题与消息实验——ros2
 # 5.1标准消息
 cd ~/wx_ros_class_ws
 
@@ -65,7 +65,7 @@ ros2 launch my_class_pkg bringup_topic_launch.py
 
 # 服务和动作
 
-# 实验二：服务和动作——ros2！！
+# 实验二：服务和动作——ros2
 # 5.2实现ros服务的传递
 cd ~/wx_ros_class_ws
 
